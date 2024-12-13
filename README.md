@@ -7,12 +7,6 @@
 4. Run migrations: `/vendor/bin/sailmigrate`.
 5. (Optional) Seed database: `/vendor/bin/sail db:seed`.
 
-## API Endpoints
-- `POST /tasks`
-- `GET /tasks`
-- `PUT /tasks/{id}`
-- `DELETE /tasks/{id}`
-- ...
 
 ## Testing
 ### Run `php artisan test` for unit and integration tests.
