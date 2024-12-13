@@ -2,9 +2,10 @@
 
 ## Setup
 1. Install dependencies: `composer install`.
-2. Run Sail: `./vendor/bin/sail up`.
-3. Run migrations: `php artisan migrate`.
-4. (Optional) Seed database: `php artisan db:seed`.
+2. Build Sail: `./vendor/bin/sail build`.
+3. Run Sail: `./vendor/bin/sail up`.
+4. Run migrations: `/vendor/bin/sailmigrate`.
+5. (Optional) Seed database: `/vendor/bin/sail db:seed`.
 
 ## API Endpoints
 - `POST /tasks`
